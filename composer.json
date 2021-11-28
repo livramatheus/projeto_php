@@ -10,5 +10,8 @@
             "name": "livramateus"
         }
     ],
-    "require": {}
+    "require": {
+        "hackzilla/password-generator": "^1.6",
+        "claudsonm/cep-promise-php": "^1.0"
+    }
 }

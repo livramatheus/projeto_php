@@ -1,6 +1,7 @@
 <?php
 
 use Src\Controllers\Departamento;
+use Src\Controllers\Funcionario;
 
 require __DIR__ . '/vendor/autoload.php';
 
@@ -14,7 +15,7 @@ switch ($_GET['p']) {
         new Departamento;
         break;
     case 'funcionario':
-        echo 'Carrega funcionário';
+        new Funcionario;
         break;
     default:
         echo 'Home page';
