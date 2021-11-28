@@ -72,7 +72,6 @@ class Departamento {
         }
 
         return $dados;
-        
     }
 
 }
